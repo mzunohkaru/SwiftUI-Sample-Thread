@@ -21,3 +21,8 @@ https://github.com/mzunohkaru/SwiftUI-Sample-Thread/assets/99012157/1290b1d2-6c2
 # Thread Replies
 
 https://github.com/mzunohkaru/SwiftUI-Sample-Thread/assets/99012157/754dbcfa-22b7-4cef-aa14-aeb9e2da41ce
+
+
+# Search Users
+
+https://github.com/mzunohkaru/SwiftUI-Sample-Thread/assets/99012157/83c3d0c6-1023-4629-9172-47b507a8a12c
