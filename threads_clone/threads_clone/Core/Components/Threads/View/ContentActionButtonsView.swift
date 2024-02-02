@@ -92,7 +92,6 @@ struct ContentActionButtonsView_Previews: PreviewProvider {
     }
 }
 
-
 /*
 @StateObject var viewModel: ThreadDetailsViewModel
 

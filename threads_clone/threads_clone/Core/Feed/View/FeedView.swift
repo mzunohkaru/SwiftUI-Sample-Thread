@@ -10,6 +10,20 @@ import SwiftUI
 struct FeedView: View {
     
     @StateObject var viewModel = FeedViewModel()
+
+    // FeedView と ThreadDetailsView と ContentActionButtonsView の viewModelの生成方法の違い
+
+    // @StateObject var viewModel = FeedViewModel()
+    // FeedViewModelは、アプリ起動時に一度だけ生成し、アプリ終了時まで破棄しないため、
+    // アプリのライフサイクルと密接に関係している
+
+    // @StateObject var viewModel: ThreadDetailsViewModel
+    // ThreadDetailsViewModelは、それぞれのスレッドの詳細ページで生成する必要があるため、
+    // Viewのライフサイクルと密接に関係している
+
+    // @ObservedObject var viewModel: ContentActionButtonsViewModel
+    // ContentActionButtonsViewModelは、外部からビュー (ContentActionButtonView)に渡されるViewModelを参照するため、
+    // ViewModelの変更のみを監視するもので、ライフサイクルの管理をしない
     
     var body: some View {
         NavigationStack {
